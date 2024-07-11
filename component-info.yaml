@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-ec2-instance"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ec2-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "test-ec2-instance"
+  description: "Creating Ec2 instance."
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
